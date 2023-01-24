@@ -1,6 +1,7 @@
 /**
  * Aufgabe 1
  */
+console.log("Aufgabe 1");
 var firstname = "Daniel";
 var age = 37;
 var gender = "m";
@@ -20,6 +21,7 @@ console.log("firstname: " + firstname + " age: " + age + " gender: " + gender);
 /**
  * Aufgabe 3
  */
+console.log("Aufgabe 3");
 var zahl = 420;
 if (zahl % 2 != 0) {
     console.log("Die Zahl ist " + zahl);
@@ -30,6 +32,7 @@ else {
 /**
  * Aufgabe 4
  */
+console.log("Aufgabe 4");
 function returnDivison(a, b) {
     console.log("a");
     console.log("b");
@@ -40,5 +43,35 @@ returnDivison(103, 4);
 /**
  * Aufgabe 5
  */
+console.log("Aufgabe 5");
 var array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-console.log("Element an der Stelle 3", array[2]);
+console.log("Element an der Stelle 3:", array[2]);
+/**
+ * Aufgabe 6
+ */
+console.log("Aufgabe 6");
+var arr = [
+    "lukas",
+    "konstatin",
+    "ben",
+    "jonas",
+    "elias",
+    "nadja",
+    "nina",
+    "amy",
+    "Fae",
+];
+console.log("Vorheriges Array: " + arr);
+arr.push("test");
+console.log("Array nach dem Hinzufügen: " + arr);
+arr.pop();
+console.log("Array nach dem Löschen: " + arr);
+/**
+ * Aufgabe 7
+ */
+console.log("Aufgabe 7");
+var arr3 = ["a", "b", "c", "d", "e", "f"];
+console.log("Vorheriges Array: " + arr3);
+var index = arr.indexOf("c");
+arr.splice(index, 1);
+console.log("Nach dem spezifischen Löschen: " + arr3);
